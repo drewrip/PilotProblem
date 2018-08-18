@@ -8,7 +8,7 @@ Simulation and Visualization Of The AP Statistics Intro Problem
 *1 Billion Simulations*
 
 #### Raw Table
-Gathered using the weighted C++ simulation. From [dat file located in the data directory](https://github.com/drewrip/PilotProblem/blob/master/data/1blnwgt.dat).
+Gathered using the weighted C++ simulation. From [the dat file located in the data directory](https://github.com/drewrip/PilotProblem/blob/master/data/1blnwgt.dat).
 
 | # of Female Pilots | # of Simulations |
 |--------------------|------------------|
