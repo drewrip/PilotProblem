@@ -10,17 +10,17 @@
 #### Raw Table
 Gathered using the weighted C++ simulation. From [the dat file located in the data directory](https://github.com/drewrip/PilotProblem/blob/master/data/1blnwgt.dat).
 
-| # of Female Pilots | # of Simulations |
-|--------------------|------------------|
-| 0                  | 11898204         |
-| 1                  | 95195235         |
-| 2                  | 266538338        |
-| 3                  | 339241813        |
-| 4                  | 212016498        |
-| 5                  | 65249781         |
-| 6                  | 9318613          |
-| 7                  | 533349           |
-| 8                  | 8169             |
+| # of Female Pilots | # of Simulations | Probability |
+|--------------------|------------------|-------------|
+| 0                  | 11898204         | 1.18982%    |
+| 1                  | 95195235         | 9.51952%    |
+| 2                  | 266538338        | 26.6538%    |
+| 3                  | 339241813        | 33.9242%    |
+| 4                  | 212016498        | 21.2016%    |
+| 5                  | 65249781         | 6.52498%    |
+| 6                  | 9318613          | 0.931861%   |
+| 7                  | 533349           | 0.0533349%  |
+| 8                  | 8169             | 0.0008169%  |
 
 
 #### Graph
