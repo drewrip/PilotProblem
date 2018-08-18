@@ -1,8 +1,8 @@
 import random
 import matplotlib.pyplot as plt
 
-# Number of simulations to run
-trials = 1000000
+# Number of simulations to run, change this to up the trials
+trials = 100000
 
 # Defining the procedure for the simulation
 def sim():
@@ -19,7 +19,7 @@ def sim():
 
 #distribution of simulations (in number of females)
 distribution = dict([(0, 0), (1, 0), (2, 0), (3, 0), (4, 0), (5, 0), (6, 0), (7, 0), (8, 0)])
-for i in range(1,1000000):
+for i in range(1,trials):
     data = sim()
     distribution[data["females"]] += 1
 
