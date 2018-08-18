@@ -36,7 +36,7 @@ int main(){
 	std::ofstream data;
   	data.open("pilots.dat");
 	for(int i = 0; i < 9; i++){
-		std::cout << i << "	" << result[i] << std::endl;
+		std::cout << i << "	" << result[i] << "	" << ((double)result[i]/(double)UPPER)*100 << "%" << std::endl;
 		data << i << "	" << result[i] << std::endl;
 	}
 	return 0;
