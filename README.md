@@ -26,3 +26,10 @@ Gathered using the weighted C++ simulation. From [dat file located in the data d
 #### Graph
 
 ![](data/1blnwgt.png)
+
+
+### Info:
+
+Two versions of the simulation were created. [One written in Python](simplepilots.py) and [one written in C++](weightedpilots.cpp). The Python version tries to simulate the original method of picking pilots by choosing names out of a hat. It is a bit more computationally and memory intensive, as it picks and removes words out of an array. The C++ version uses an optimized version of the original method. It uses weighted random numbers that change after choices. This method at running the simulation is more efficient and recommended. 
+
+Try the [Python method online](https://repl.it/repls/TealDarkcyanApplicationprogrammer) or [the optimized C++ version](https://repl.it/repls/ResponsibleWrathfulLicense).
